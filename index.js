@@ -11,12 +11,20 @@ function getGrade() {
         grade = "C";
       } else if (marks >= 40 && marks <= 49) {
         grade = "D";
-      } else {
+      } 
+      else {
         grade = "E";
       }
       document.getElementById("output").innerHTML = `Your grade is: ${grade}`;
       }
       else {
-      prompt("Invalid input. Please enter a value between 0 and 100.");
+      grade = prompt("Invalid input. Please enter a value between 0 and 100.");
+        if (grade != null && grade >= 0 && grade <= 100 ) {
+     document.getElementById("output").innerHTML = `Enter ${grade} above`;
+            }
+            else {
+              document.getElementById("output").innerHTML = `Invalid input. Please try again`;
+
+            }
     }
   }

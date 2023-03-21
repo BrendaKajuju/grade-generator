@@ -5,12 +5,18 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <form>
-      <label for="marks">Enter your Marks Below:</label>
-      <input type="number" id="marks" name="marks" min="0" max="100" required />
-      <button type="button" onclick="getGrade()">Get grade</button>
-    </form>
-    <div id="output"></div>
+   
+      <form>
+        <h1>Student Grade Calculator</h1>
+        <label for="marks">Enter your Marks here:</label>
+        <input type="number" id="marks" name="marks" min="0" max="100" required />
+        <button type="button" onclick="getGrade()">Get grade</button>
+      </form>
+   
+   
+    <div id="output">
+      <h3> Grade Result will be displayed here</h3>
+    </div>
     <script src="index.js"></script>
   </body>
 
