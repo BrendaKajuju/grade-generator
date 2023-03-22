@@ -11,20 +11,36 @@ function getGrade() {
         grade = "C";
       } else if (marks >= 40 && marks <= 49) {
         grade = "D";
-      } 
-      else {
+      } else if (marks = Number.NaN) {
+       grade = "You have not entered a grade"
+      }else {
         grade = "E";
       }
       document.getElementById("output").innerHTML = `Your grade is: ${grade}`;
       }
       else {
-      grade = prompt("Invalid input. Please enter a value between 0 and 100.");
-        if (grade != null && grade >= 0 && grade <= 100 ) {
-     document.getElementById("output").innerHTML = `Enter ${grade} above`;
-            }
-            else {
-              document.getElementById("output").innerHTML = `Invalid input. Please try again`;
-
+      grade = alert("Invalid input. Please enter a value between 0 and 100.");
             }
     }
-  }
+  
+  function demerit () {
+    const speed = document.getElementById("speed").value;
+    let points;
+    if (speed >= 0 && speed <=70) {
+      document.getElementById("output1").innerHTML = "OK";
+     } 
+    else if (speed > 70) {
+          points = Math.floor ((speed -70) / 5);
+          if (points >= 12) {
+            document.getElementById("output1").innerHTML = `License Suspended. Demerit points = ${points}`;
+          }
+          else {
+            document.getElementById("output1").innerHTML = `Demerit points: ${points}`;
+          }
+        }
+    else {
+      points = alert("Invalid input. Please enter your speed again"); 
+               }
+
+          }
+  
