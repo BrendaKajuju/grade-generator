@@ -1,29 +1,39 @@
-# CODE CHALLENGE
+# JavaScript WEEK 1 Code Challenges
 
-# CODE CHALLENGE 1
+This project is a collection of JavaScript code challenges that were completed during a coding bootcamp. The challenges include a student grade calculator, a speed detector, and a net salary calculator. These challenges were designed to test and improve the participants' understanding of JavaScript fundamentals such as variables, conditionals, and functions.
 
-This code challenge involves creating a program that prompts the user to input student marks and then outputs the correct grade based on the input. The program will be written in HTML, CSS, and JavaScript.
+## Description
 
-   ## HTML
+The JavaScript code challenges in this project provide practical experience with real-world problems and help the user to develop a deeper understanding of JavaScript concepts. Each challenge is designed to test and improve the user's understanding of a particular JavaScript topic, such as input validation, conditional statements, or mathematical operations.
 
-  The HTML code will contain a form with input fields that allow the user to enter the student marks. The form will also contain a submit button that triggers the JavaScript function to calculate the student's grade.
+The project contains three forms that each perform a different JavaScript code challenge:
 
-  ## CSS
+### Student Grade Calculator
 
-  The CSS code will be used to style the form and make it visually appealing. The CSS code will also be used to style the output of the program.
+The student grade calculator allows the user to input their marks and receive their grade. The JavaScript code checks the input for validity and outputs the grade to the user if it is within a valid range. This challenge helps to improve the user's understanding of input validation and conditional statements.
 
-  ## JavaScript
+### Speed Detector
 
-  The JavaScript code will be responsible for calculating the student's grade based on the input. It will retrieve the input values from the form, perform the necessary calculations, and output the correct grade.
+The speed detector allows the user to input their speed and receive their demerit points if they are speeding. The JavaScript code checks the input for validity and calculates the demerit points based on the speed. If the demerit points exceed a certain limit, the user's license is suspended. This challenge helps to improve the user's understanding of mathematical operations and conditional statements.
 
-  The JavaScript code will first check if the input is between 0 and 100. If the input is valid, the code will proceed to calculate the grade using the following criteria:
+### Net Salary Calculator
 
-  - A: greater than 79
-  - B: 60 to 79
-  - C: 50 to 59
-  - D: 40 to 49
-  - E: less than 40
+The net salary calculator allows the user to input their monthly basic salary and benefits, and receive their net salary after taxes and deductions. The JavaScript code calculates the paye, nhif, and nssf deductions based on the input and outputs the net salary to the user. This challenge helps to improve the user's understanding of mathematical operations and functions.
 
-  Once the grade has been calculated, the JavaScript code will output the result to the user.
+## Project Setup
 
-  Overall, this code challenge involves creating a program that prompts the user to input student marks and then outputs the correct grade based on the input. The program will be written in HTML, CSS, and JavaScript, with the JavaScript code responsible for performing the necessary calculations and outputting the correct grade.
+To set up the project, follow these steps:
+
+1. Clone the repository to your local machine.
+2. Open the index.html file in any web browser of your choice.
+3. Select the form for the code challenge you want to try.
+4. Input the required values and click the appropriate button to run the JavaScript code.
+5. The output will be displayed on the page.
+
+## Author & License
+
+The project was created by a group of participants during a coding bootcamp and is licensed under the [MIT License](https://opensource.org/licenses/MIT). Feel free to use, modify, and distribute the code as you see fit.
+
+This project is a great resource for anyone looking to improve their JavaScript skills or to practice the fundamentals of the language. It provides hands-on experience with real-world problems and helps the user to develop a deeper understanding of JavaScript concepts. The challenges in this project can be used for individual practice or as part of a group learning experience.
+
+If you have any questions or comments, please feel free to contact us. We hope you enjoy the challenges!
