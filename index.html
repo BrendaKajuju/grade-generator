@@ -8,24 +8,29 @@
 
 <body>
 
+  <!-- Form for Challenge 1: Student Grade Calculator -->
   <form>
     <h1>Student Grade Calculator</h1>
-    <label for="marks">Enter your Marks here:</label>
+    <label for="marks">Please enter your Marks here:</label>
     <input type="number" id="marks" name="marks" min="0" max="100" required />
     <button type="button" onclick="getGrade()">Get Grade</button>
   </form>
-    <div id="output">
-      <h3> Grade Result will be displayed here</h3>
-    </div>
+  <div id="output">
+    <h3> Your Grade Result will be displayed here</h3>
+  </div>
+
+  <!-- Form for Challenge 2: Speed Detector -->
   <form>
     <h1>Speed Detector</h1>
-    <label for="speed">Enter your Speed here</label>
+    <label for="speed">Please enter your Speed here:</label>
     <input type="number" id="speed" name="speed" min="0" required>
-    <button type="button" onclick="demerit()"> Get Gpeed</button>
+    <button type="button" onclick="demerit()"> Get Speed</button>
   </form>
   <div id="output1">
-    <h3>Speed status will be displayed here</h3>
+    <h3>Your Speed Status will be displayed here</h3>
   </div>
+
+  <!-- Form for Net Salary Calculator -->
   <form>
     <h1>Net Salary Calculator</h1>
     <label for="basicSalary">Enter your monthly basic salary here:</label>
@@ -34,14 +39,16 @@
     <input type="number" id="benefits" name="benefits" min="0" required /><br />
     <button type="button" onclick="netSalary()">Get Net Salary</button>
   </form>
-      <div id="output2">
-      <h3>Net Salary will be displayed here:</h3>
-      <p id="grossSalary"></p>
-      <p id="paye"></p>
-      <p id="nhif"></p>
-      <p id="nssf"></p>
-      <p id="netSalary"></p>
+  <div id="output2">
+    <h3>Your net Salary will be displayed here:</h3>
+    <p id="grossSalary"></p>
+    <p id="paye"></p>
+    <p id="nhif"></p>
+    <p id="nssf"></p>
+    <p id="netSalary"></p>
   </div>
+
+  <!-- Javascript tagged at the bottom to help reduce the loading time of the page's elements -->
   <script src="index.js"></script>
 </body>
 
