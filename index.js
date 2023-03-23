@@ -52,9 +52,14 @@ function demerit () {
 // Challenge 3: Net Salary Calculator
 function netSalary() {
   // The user will enter basic salary + benefits,  as variables used in calculation of tax
-  // parseFloat() parses a string and returns the first number
-  const basicSalary = parseFloat(document.getElementById("basicSalary").value);
-  const benefits = parseFloat(document.getElementById("benefits").value);
+  const basicSalaryInput = document.getElementById("basicSalary");
+  const benefitsInput = document.getElementById("benefits");
+
+  // Check if inputs are empty, and set their values to zero if they are
+    // parseFloat() parses a string and returns the first number
+
+  const basicSalary = basicSalaryInput.value === "" ? 0 : parseFloat(basicSalaryInput.value);
+  const benefits = benefitsInput.value === "" ? 0 : parseFloat(benefitsInput.value);
 
   // Initiate the value of gross salary before taxes because taxes cut across both basic salary and benefits 
   const grossSalary = basicSalary + benefits;
@@ -115,9 +120,9 @@ function netSalary() {
   const netSalary = grossSalary - paye - nhifDeductions - nssfDeductions;
 
   // Output results to user
-  document.getElementById("grossSalary").innerHTML = `Gross Salary: ${grossSalary.toFixed(2)}`;
-  document.getElementById("paye").innerHTML = `Paye (Tax): ${paye.toFixed(2)}`;
-  document.getElementById("nhif").innerHTML = `NHIF Deductions: ${nhifDeductions.toFixed(2)}`;
-  document.getElementById("nssf").innerHTML = `NSSF Deductions: ${nssfDeductions.toFixed(2)}`;
-  document.getElementById("netSalary").innerHTML = `Net Salary: ${netSalary.toFixed(2)}`;
+  document.getElementById("grossSalary").innerHTML = `Gross Salary (Ksh): ${grossSalary.toFixed(2)}`;
+  document.getElementById("paye").innerHTML = `Paye Tax (Ksh): ${paye.toFixed(2)}`;
+  document.getElementById("nhif").innerHTML = `NHIF Deductions (Ksh): ${nhifDeductions.toFixed(2)}`;
+  document.getElementById("nssf").innerHTML = `NSSF Deductions (Ksh): ${nssfDeductions.toFixed(2)}`;
+  document.getElementById("netSalary").innerHTML = `Net Salary is Ksh: ${netSalary.toFixed(2)}`;
 }
