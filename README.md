@@ -1,6 +1,6 @@
 # JavaScript WEEK 1 Code Challenges
 
-This project is a collection of JavaScript code challenges that were completed during a coding bootcamp. The challenges include a student grade calculator, a speed detector, and a net salary calculator. These challenges were designed to test and improve the participants' understanding of JavaScript fundamentals such as variables, conditionals, and functions.
+This project is a collection of JavaScript code challenges that include a student grade calculator, a speed detector, and a net salary calculator. These challenges were designed to test and improve the participants' understanding of JavaScript fundamentals such as variables, conditionals, and functions.
 
 ## Description
 
