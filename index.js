@@ -13,8 +13,6 @@ function getGrade() {
       grade = "C";
     } else if (marks >= 40 && marks <= 49) {
       grade = "D";
-    } else if (marks = Number.NaN) {
-        grade = "You have not entered a grade"
     }
     else {
       grade = "E";

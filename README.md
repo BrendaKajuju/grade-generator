@@ -10,7 +10,7 @@ The project contains three forms that each perform a different JavaScript code c
 
 ### Student Grade Calculator
 
-The student grade calculator allows the user to input their marks and receive their grade. The JavaScript code checks the input for validity and outputs the grade to the user if it is within a valid range. This challenge helps to improve the user's understanding of input validation and conditional statements.
+The student pushgrade calculator allows the user to input their marks and receive their grade. The JavaScript code checks the input for validity and outputs the grade to the user if it is within a valid range. This challenge helps to improve the user's understanding of input validation and conditional statements.
 
 ### Speed Detector
 
